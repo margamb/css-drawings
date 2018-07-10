@@ -4,13 +4,15 @@ img{
 
 .conteiner{
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .logo{
     width: 20%;
-    margin: 0;
-    padding-top: 5%;
-    padding-left: 67%;
+    margin: auto;
+    padding-top: 2%;
     cursor: pointer;
 }
 
@@ -486,3 +488,239 @@ img{
 .kid:hover .tongueK{
     transform: scaleY(2);   
 }
+
+/*burguer*/
+
+.burger{
+    width: 385px;
+    height: 385px;
+    margin-top: 15px;
+    background-color: #778898;  
+    position: relative; 
+    cursor:pointer;
+}
+.circle-burger{
+    position: absolute;
+    top: 55px;
+    left: 43px;
+    width: 300px;
+    height: 300px;
+    background: #F3D9B1;
+    border-radius: 100%;
+}
+.bread-top{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    background: #DF7B30;
+    box-shadow: inset 0px -12px 15px rgba(68, 68, 68, 0.3);
+    top: 113px;
+    left: 103px;
+    border-radius: 100px 100px 0 0;
+}
+
+.sesame-one{
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #FFB400;
+    top: 9px;
+    left: 53px;
+    border-radius: 100px 100px 0 0;
+}
+
+.sesame-two{
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background: #FFB400;
+    top: 17px;
+    left: 82px;
+    border-radius: 100px 100px 0 0;
+}
+
+.sesame-three{
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #FFB400;
+    top: 9px;
+    left: 115px;
+    border-radius: 100px 100px 0 0;
+}
+
+.tomato{
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    background: #E83330;
+    top: 177px;
+    left: 108px;
+    border-radius: 100px; 
+}
+
+.light-tomato{
+    position: absolute;
+    width: 109px;
+    height: 4px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 3px;
+    left: 57px;
+    border-radius: 100px;
+}
+
+.onion{
+    position: absolute;
+    width: 156px;
+    height: 12px;
+    background: #9E3D6D;
+    top: 192px;
+    left: 115px; 
+}
+
+.light-onion-one{
+    position: absolute;
+    width: 22px;
+    height: 12px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 0;
+    left: 98px;
+}
+
+.light-onion-two{
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 0;
+    left: 137px;
+}
+
+.lettuce{
+    position: absolute;
+    width: 176px;
+    height: 12px;
+    top: 208px;
+    left: 105px;
+    background: #6DA000;
+    border-radius: 3px;
+}
+
+.light-lettuce-one{
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 212px;
+    left: 183px;
+    border-radius: 100px;
+}
+
+.light-lettuce-two{
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    background: #FFF;
+    opacity: 0.2;
+    top: 212px;
+    left: 183px;
+    border-radius: 100px;
+}
+
+.chesse{
+    position: absolute;
+    width: 176px;
+    height: 12px;
+    top: 226px;
+    left: 105px;
+    background: #FFB400;
+    border-radius: 3px; 
+}
+
+.chesse-triangle{
+    position: absolute;
+    border-top: 40px solid #FFB400;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.melt{
+    position: absolute;
+    top: -29px;
+    left: 93px;
+    width: 10px;
+    height: 55px;
+    background: #FFB400;
+    border-radius: 100px;
+    animation: 5s melting ease infinite;
+}
+
+
+
+@keyframes melting{
+100% {
+    transform: translateY(-7px);
+}
+}
+
+.melt-one{
+    position: absolute;
+    top: -34px;
+    left: 74px;
+    width: 8px;
+    height: 40px;
+    background: #FFB400;
+    border-radius: 100px;
+    animation: 5s melting ease infinite;
+}
+
+.light-triangle{
+    position: absolute;
+    top: -35px;
+    left: 5px;
+    width: 5px;
+    height: 30px;
+    background: #FFF;
+    opacity: 0.5;
+    border-radius: 100px;
+    transform: rotate(51deg);
+}
+
+.meat{
+    position: absolute;
+    width: 176px;
+    height: 26px;
+    top: 246px;
+    left: 105px;
+    background: #9D4845;
+    box-shadow: inset -5px -5px 5px rgba(68, 68, 68, 0.3);
+    border-radius: 100px;   
+}
+
+.bread-bottom{
+    position: absolute;
+    top: 272px;
+    left: 103px;
+    width: 180px;
+    height: 30px;
+    background: #DF7B30;
+    box-shadow: inset -11px -12px 15px rgba(68, 68, 68, 0.3);
+    border-radius: 0 0 100px 100px;
+}
+
+
+
+/*.forms{
+    width: 90px;
+    height: 150px;
+    left: 50%;
+    background: #3498db;
+    top: -10px; 
+    border-radius: 10% 10% 70% 70%;
+    -webkit-box-shadow: inset 10px 5px 0 -5px #daa520, inset 15px 5px 0 -5px #b01030, inset -10px 5px 0 -5px #daa520, inset -15px 5px 0 -5px #b01030;
+}*/
+
