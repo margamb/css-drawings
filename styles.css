@@ -16,6 +16,356 @@ img{
     cursor: pointer;
 }
 
+/*elvira*/
+
+.elvira{
+    width: 385px;
+    height: 385px;
+    margin-top: 15px;
+    background: radial-gradient(#fa143a, #550d01);  
+    position: relative; 
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.tomb1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(#550d01 , #000);
+    border-radius: 100% 100% 0% 0%;
+    top: 249px;
+    left: 18px;
+    transform: rotate(-20deg);
+}
+
+.tomb2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(#550d01 , #000);
+    border-radius: 100% 100% 0% 0%;
+    top: 241px;
+    left: 283px;
+    transform: rotate(13deg);
+}
+
+.tomb3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(#550d01 , #000);
+    border-radius: 100% 100% 0% 0%;
+    top: 269px;
+    left: 312px;
+    transform: rotate(13deg);
+}
+
+.cloud {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #550d01;
+    border-radius: 100%;
+    top: 33px;
+    left: -24px;
+}
+
+.cloud1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #550d01;
+    border-radius: 100%;
+    top: 49px;
+    left: 29px;
+}
+
+.cloud2 {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    background: #550d01;
+    border-radius: 100%;
+    top: 96px;
+    left: -8px;
+}
+
+
+.moon{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    background: radial-gradient(#fa143a , white);
+    border-radius: 100%;
+    top: 20px;
+    left: 165px;
+}
+
+.floor{
+    position: absolute;
+    width: 484px;
+    height: 254px;
+    background: radial-gradient(#000, #fa143a);
+    border-radius: 100%;
+    top: 272px;
+    left: -51px;
+}
+
+.hair-light-elvira{
+    position: absolute;
+    width: 140px;
+    height: 149px;
+    background: #555;
+    border-radius: 100%;
+    top: 109px;
+    left: 115px;
+}
+
+.hair1-light-elvira{
+    position: absolute;
+    width: 104px;
+    height: 10px;
+    background: #555;
+    border-radius: 0% 0% 100% 100%;
+    top: 107px;
+    left: 132px;
+}
+
+.hair2-light-elvira{
+    position: absolute;
+    width: 6px;
+    height: 30px;
+    background: #555;
+    border-radius: 100% 100% 0% 0%;
+    top: 80px;
+    left: 182px;
+}
+
+.hair-elvira{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    background: #000;
+    border-radius: 100%;
+    top: 43px;
+    left: 83px;
+}
+
+
+
+.face-elvira{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: rgb(241, 170, 149);
+    border-radius: 100%;
+    top: 121px;
+    left: 115px;
+}
+
+.face-light-elvira{
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    background: #F0BEAF;
+    border-radius: 100%;
+    top: 0px;
+    left: 10px;
+}
+
+.eye-right-elvira {
+    position: absolute;
+    top: 187px;
+    left: 200px;
+    border-radius: 179px 0 203px 0;
+    width: 40px;
+    height: 18px;
+    background: white;
+    border: black solid 3px;
+}
+
+.ball-eye-right-elvira{
+    position: absolute;
+    top: 190px;
+    left: 212px;
+    border-radius: 100%;
+    width: 19px;
+    height: 18px;
+    background: #2090FF;
+}
+
+.ball-eye-light-right-elvira {
+    position: absolute;
+    top: 190px;
+    left: 222px;
+    border-radius: 100%;
+    width: 7px;
+    height: 7px;
+    background: white;
+}
+
+.eye-left-elvira {
+    position: absolute;
+    top: 187px;
+    left: 124px;
+    border-radius: 0 179px 0 203px;
+    width: 40px;
+    height: 18px;
+    background: white;
+    border: black solid 3px;
+}
+
+.ball-eye-left-elvira{
+    position: absolute;
+    top: 190px;
+    left: 139px;
+    border-radius: 100%;
+    width: 19px;
+    height: 18px;
+    background: #2090FF;
+}
+
+.ball-eye-light-left-elvira {
+    position: absolute;
+    top: 190px;
+    left: 140px;
+    border-radius: 100%;
+    width: 7px;
+    height: 7px;
+    background: white;
+}
+
+.nose-elvira {
+    position: absolute;
+    width: 7px;
+    height: 5px;
+    top: 215px;
+    left: 181px;
+    border-top: 8px solid #F1AA95;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.mouth-elvira{
+    position: absolute;
+    width: 18px;
+    height: 7px;
+    top: 230px;
+    left: 170px;
+    background: #fa143a;
+    border-radius: 100% 100% 0% 0%;
+}
+
+.mouth1-elvira{
+    position: absolute;
+    width: 18px;
+    height: 7px;
+    top: 230px;
+    left: 186px;
+    background: #fa143a;
+    border-radius: 100% 100% 0% 0%;
+}
+
+.mouth2-elvira{
+    position: absolute;
+    width: 26px;
+    height: 7px;
+    top: 235px;
+    left: 174px;
+    background: radial-gradient(#550d01, #fa143a);
+    border-radius: 0% 0% 100% 100%;
+}
+
+.fringe-elvira {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 140px;
+    height: 58px;
+    background: #000;
+    border-radius: 100px 100px 0 0;
+}
+
+
+
+.hair-back-elvira {
+    position: absolute;
+    top: 95px;
+    left: 97px;
+    width: 180px;
+    height: 241px;
+    background: #000;
+    border-radius: 37%;
+}
+
+.neck-elvira{
+    position: absolute;
+    width: 37px;
+    height: 54px;
+    background: #F0BEAF;
+    border-radius: 35%;
+    top: 231px;
+    left: 168px;
+}
+
+.body-elvira{
+    position: absolute;
+    width: 85px;
+    height: 200px;
+    /* background: #000; */
+    top: 286px;
+    left: 115px;
+    border-top: 120px solid #000;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;	
+}
+
+.neckline-elvira{
+    position: absolute;
+    /* width: 40px; */
+    /* height: 100px; */
+    top: 273px;
+    left: 146px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 83px solid #F0BEAF;
+}
+
+.neckline1-elvira{
+    position: absolute;
+    top: 318px;
+    left: 122px;
+    width: 60px;
+    height: 58px;
+    background: transparent;
+    border: 3px solid #000;
+    border-color:transparent #000 transparent transparent;
+    border-radius: 100%;
+}
+ .boom-right{
+    position: absolute;
+    top: 314px;
+    left: 113px;
+    width: 65px;
+    height: 65px;
+    background: #000;
+    border-radius: 100%;
+}
+
+.boom-left{
+    position: absolute;
+    top: 314px;
+    left: 194px;
+    width: 65px;
+    height: 65px;
+    background: #000;
+    border-radius: 100%;
+}
+
+
+
+/*panda*/
 .panda{
     width: 385px;
     height: 385px;
@@ -723,4 +1073,6 @@ img{
     border-radius: 10% 10% 70% 70%;
     -webkit-box-shadow: inset 10px 5px 0 -5px #daa520, inset 15px 5px 0 -5px #b01030, inset -10px 5px 0 -5px #daa520, inset -15px 5px 0 -5px #b01030;
 }*/
+
+
 
