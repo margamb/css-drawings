@@ -16,6 +16,35 @@ img{
     cursor: pointer;
 }
 
+/*coffee*/
+
+.coffee{
+    width: 385px;
+    height: 385px;
+    margin-top: 15px;
+    background: #A0512D;  
+    position: relative; 
+    overflow: hidden;    
+}
+
+.choices{
+    text-align: center;
+    padding-top: 10%;   
+}
+
+
+.fluid{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    background: white;
+    border-radius: 100%;
+    top: 117px;
+    left: 97px;
+}
+
+
+
 /*elvira*/
 
 .elvira{
@@ -106,7 +135,7 @@ img{
     position: absolute;
     width: 484px;
     height: 254px;
-    background: radial-gradient(#000, #fa143a);
+    background: #000;
     border-radius: 100%;
     top: 272px;
     left: -51px;
@@ -299,6 +328,16 @@ img{
     border-radius: 37%;
 }
 
+.hair-back-light-elvira {
+    position: absolute;
+    top: 99px;
+    left: 95px;
+    width: 184px;
+    height: 241px;
+    background: #555;
+    border-radius: 37%;
+}
+
 .neck-elvira{
     position: absolute;
     width: 37px;
@@ -353,6 +392,16 @@ img{
     border-radius: 100%;
 }
 
+.boom-light-right{
+    position: absolute;
+    top: 319px;
+    left: 111px;
+    width: 65px;
+    height: 59px;
+    background: white;
+    border-radius: 100%;
+}
+
 .boom-left{
     position: absolute;
     top: 314px;
@@ -360,6 +409,16 @@ img{
     width: 65px;
     height: 65px;
     background: #000;
+    border-radius: 100%;
+}
+
+.boom-light-left{
+    position: absolute;
+    top: 319px;
+    left: 196px;
+    width: 65px;
+    height: 59px;
+    background: white;
     border-radius: 100%;
 }
 
