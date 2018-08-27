@@ -78,6 +78,7 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 3px;
+    background-color: white;
 }
 
 button:focus{
