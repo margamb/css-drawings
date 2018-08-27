@@ -22,12 +22,76 @@ img{
     width: 385px;
     height: 385px;
     margin-top: 15px;
-    background: #A0512D;  
+    background: #F3D9B0;  
     position: relative; 
     overflow: hidden;    
 }
 
+.saucer{
+    position: absolute;
+    top: 125px;
+    left: 89px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #FFF;
+    box-shadow: 5px 1px 30px #948296;
+    border: 5px solid #FFF;
+
+}
+
+.inner-coffee{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    width: 100px;
+    height: 80px;
+    border-radius: 100%;
+    box-shadow: -10px 10px 60px #948296;
+}
+
+.cup {
+    position: absolute;
+    top: 39px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 10px solid #FFF;
+    box-shadow: 0 10px 30px #948296;
+}
+
+.holder {
+    position: absolute;
+    top: 215px;
+    left: 111px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 30%;
+}
+
+button{
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:focus{
+    outline: none;
+}
+
+.active{
+    background-color: #685044;
+}
+
 .choices{
+    
+    font-size: 42px;
+    color: #303030;
     text-align: center;
     padding-top: 10%;   
 }
@@ -35,14 +99,48 @@ img{
 
 .fluid{
     position: absolute;
-    width: 205px;
-    height: 205px;
-    background: white;
+    top: 49px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
-    top: 117px;
-    left: 97px;
+    background-color: #685044;
+    box-shadow: inset 0 0 10px #000;
 }
 
+.fluid-gradient{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#A0512D, #fdfdfd);
+    opacity: 0.5; 
+    border-radius: 100%;
+    top: 49px;
+    left: 50px;
+}
+
+.fluid-shadow{
+    position: absolute;
+    width: 50px;
+    height: 75px;
+    background: radial-gradient(#A0512D, #fdfdfd);
+    opacity: 0.3;
+    border-radius: 100%;
+    top: 62px;
+    left: 99px;
+}
+
+
+.fluid-light{
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    background: white;
+    opacity: 0.7;
+    border-radius: 100%;
+    top: 89px;
+    left: 132px;
+}
 
 
 /*elvira*/
