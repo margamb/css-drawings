@@ -43,13 +43,32 @@ document.addEventListener('DOMContentLoaded', () => {
         });    
     })
 
+    $("button").on("click", event => {
+        $(event.currentTarget).addClass('active');
+        $(event.currentTarget).siblings().removeClass('active')
+        $(event.currentTarget).closest('.choices').children().removeClass('disabled')
+    })
+
 });
 
 
 //probar que se active el boton
  //la clase active
 
+//  $(".choices").on("click", event => {
+//      $("button").children().removerClass(".disabled")
+//      $(event.currentTarget).siblings().removerClass("active")
+//  })
  
+//  $('.poster-details li').on('click', event => {
+//     $(event.currentTarget).addClass('active-size');
+    
+//     $(event.currentTarget).siblings().removeClass('active-size')
+    
+//     $(event.currentTarget).closest('.poster-details').children().removeClass('disabled')
+    
+    
+//   });
 
 const arr = [1,2,3]
 

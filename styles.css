@@ -7,6 +7,7 @@ img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .logo{
@@ -87,7 +88,10 @@ button:focus{
 
 .active{
     background-color: #685044;
+    color: white;
 }
+
+
 
 .choices{
     
