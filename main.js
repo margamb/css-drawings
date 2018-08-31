@@ -12,6 +12,12 @@
 //         $(".fluid").css("background", "#FC9E4F");
 //     });
 
+    // $("button").on("click", event => {
+    //  $(event.currentTarget).addClass('active');
+    //  $(event.currentTarget).siblings().removeClass('active')
+    //  $(event.currentTarget).closest('.choices').children().removeClass('disabled')
+    // })
+
 // });
 
 // document.addEventListener('DOMContentLoaded', () => {

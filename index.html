@@ -39,6 +39,38 @@
             <div class="holder"></div>
         </div>
 
+        <div class="gifChino">
+            <div class="bloque-chino">
+                <div id="anim"></div>
+                <div class="button-click">
+                <button class="click" onclick="play()">Play</button>
+                <button class="click" onclick="pause()">Pause</button>
+                <button class="click" onclick="reset()">Reset</button>
+                <button class="click" onclick="stop()">Stop</button>
+                </div>
+          </div>  
+        
+        <script>
+            var el = document.getElementById('anim');
+        function play() {
+          el.style.animationPlayState = 'running';
+        }
+        function pause() {
+          el.style.animationPlayState = 'paused';
+        }
+        function reset() {
+          el.style.animation = 'none';
+          el.offsetHeight;
+          el.style.animation = null;
+        }
+        function stop() {
+          reset();
+          pause();
+        }
+        </script>
+        </body>
+        </div>
+
         <div class="elvira">
             <div class="moon"></div>
             <div class="tomb1"></div>

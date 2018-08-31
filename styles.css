@@ -15,14 +15,62 @@ img{
     margin: auto;
     padding-top: 2%;
     cursor: pointer;
+    padding-bottom: 5%;
 }
+
+/* gifchino*/
+
+.gifChino{
+    width: 385px;
+    height: 385px;
+    /*margin-top: 15px;*/
+    background: radial-gradient(#F3D9B0, #FAB303);
+    position: relative; 
+    overflow: hidden; 
+}
+.bloque-chino{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 5%;
+  
+}
+
+.button-click{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-size: 13px;
+  
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  
+}
+
+
+#anim {
+    margin: auto;
+    background-image: url("./images/chino-gif3.png");
+      width: 350px;
+      height: 314px;
+      animation: move 1.0s steps(4) infinite; /
+    }
+  
+    @keyframes move {
+      100% { background-position: -1400px;}
+    }
 
 /*coffee*/
 
 .coffee{
     width: 385px;
     height: 385px;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     background: #F3D9B0;  
     position: relative; 
     overflow: hidden;    
@@ -153,7 +201,7 @@ button:focus{
 .elvira{
     width: 385px;
     height: 385px;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     background: radial-gradient(#fa143a, #550d01);  
     position: relative; 
     cursor:pointer;
@@ -531,7 +579,7 @@ button:focus{
 .panda{
     width: 385px;
     height: 385px;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     background-color: #A9EDDA;  
     position: relative; 
     cursor:pointer;
@@ -781,7 +829,7 @@ button:focus{
 .kid{
     width: 385px;
     height: 385px;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     background-color: #2c3350;  
     position: relative; 
     cursor:pointer;
@@ -1006,7 +1054,7 @@ button:focus{
 .burger{
     width: 385px;
     height: 385px;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     background-color: #778898;  
     position: relative; 
     cursor:pointer;
