@@ -18,13 +18,108 @@ img{
     padding-bottom: 5%;
 }
 
+/*battery*/
+
+.battery{
+    width: 385px;
+    height: 385px;
+    /*margin-top: 15px;*/
+    background: #288B8B;  
+    position: relative; 
+    overflow: hidden;
+}
+
+.box-battery{
+    position: absolute;
+    width: 200px;
+    height: 95px;
+    border: 6px solid white;
+    top: 90px;
+    left: 82px;
+}
+
+.charge{
+    position: absolute;
+    width: 40px;
+    height: 95px;
+    background: orange;
+    top: 0px;
+    left: 0px;
+}
+
+.box-battery1{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background: white;
+    top: 116px;
+    left: 289px;
+}
+
+.light{
+    width: 0px;
+    height: 0;
+    border-bottom: 100px solid white;
+    border-right: 207px solid transparent;
+    opacity: 0.2;
+}
+
+.plus{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 253px;
+    left: 96px;
+    border-radius: 100%;
+    background: white;
+    cursor: pointer;
+}
+
+.line-plus{
+    width: 45px;
+    height: 7px;
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    background: #288B8B;
+}
+
+.line-plus2{
+    width: 7px;
+    height: 45px;
+    position: absolute;
+    top: 12px;
+    left: 31px;
+    background: #288B8B;
+}
+
+.less{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 253px;
+    left: 225px;
+    border-radius: 100%;
+    background: white;
+    cursor: pointer;
+}
+
+.line-less{
+    width: 45px;
+    height: 7px;
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    background: #288B8B;
+}
+
 /* gifchino*/
 
 .gifChino{
     width: 385px;
     height: 385px;
     /*margin-top: 15px;*/
-    background: radial-gradient(#F3D9B0, #FAB303);
+    background: #F6F6E0;
     position: relative; 
     overflow: hidden; 
 }
@@ -58,7 +153,7 @@ img{
     background-image: url("./images/chino-gif3.png");
       width: 350px;
       height: 314px;
-      animation: move 1.0s steps(4) infinite; /
+      animation: move 1.0s steps(4) infinite; 
     }
   
     @keyframes move {

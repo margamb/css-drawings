@@ -79,3 +79,14 @@ document.addEventListener('DOMContentLoaded', () => {
 const arr = [1,2,3]
 
 arr.forEach(() =>  2)
+
+
+//battery
+
+$(".plus").on("click", () => { 
+    $(".charge").css("width", "190px");
+});
+
+$(".less").on("click", () => { 
+    $('.charge').animate({ width: '6px',},1000);
+});
