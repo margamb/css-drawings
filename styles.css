@@ -36,6 +36,7 @@ img{
     border: 6px solid white;
     top: 90px;
     left: 82px;
+    overflow: hidden;
 }
 
 .charge{

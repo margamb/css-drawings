@@ -83,10 +83,21 @@ arr.forEach(() =>  2)
 
 //battery
 
-$(".plus").on("click", () => { 
-    $(".charge").css("width", "190px");
+// $(".plus").on("click", () => { 
+//     $(".charge").css("width", "190px");
+// });
+
+$('.plus').on('click', function(){
+    var length = $('.charge').width() + 40;
+    $('.charge').animate({width: length});
 });
 
 $(".less").on("click", () => { 
     $('.charge').animate({ width: '6px',},1000);
 });
+
+
+// $('.charge').on('click', function(){
+//     var width = $('.inner').width();
+//     var length = $('.inner').width();
+//     length += 10;
