@@ -97,7 +97,3 @@ $(".less").on("click", () => {
 });
 
 
-// $('.charge').on('click', function(){
-//     var width = $('.inner').width();
-//     var length = $('.inner').width();
-//     length += 10;
