@@ -96,4 +96,12 @@ $(".less").on("click", () => {
     $('.charge').animate({ width: '6px',},1000);
 });
 
+//batmasnjoker
+
+$(".turn-off").on('click', function(){
+    $(".light-turn-off").css("background", "transparent");
+    $(".light-ball").css("background", "radial-gradient(white, yellow)");
+    $(".light-reflections").css("background", "radial-gradient(white, yellow)");
+})
+
 
