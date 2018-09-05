@@ -98,6 +98,12 @@ $(".less").on("click", () => {
 
 //batmasnjoker
 
+$('.light-turn-off').show();
+
+    $(".turn-off").on('click', event => {
+        $("light-turn-off").toggle("light-turn-off")
+    });
+
 $(".turn-off").on('click', function(){
     $(".light-turn-off").css("background", "transparent");
     $(".light-ball").css("background", "radial-gradient(white, yellow)");
