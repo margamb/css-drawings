@@ -18,6 +18,167 @@ img{
     padding-bottom: 5%;
 }
 
+/*batman-joker*/
+
+.batman-joker{
+    width: 385px;
+    height: 385px;
+    /*margin-top: 15px;*/
+    background: grey;  
+    position: relative; 
+    overflow: hidden;
+}
+.batman-face{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background: #000;
+    top: 148px;
+    left: 189px;
+}
+
+.bat-nose{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 41px solid grey;
+    border-right: 15px solid transparent;
+    left: 74px;
+    top: 69px;
+    opacity: 0.4;
+}
+
+.bat-body-left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 73px solid #000;
+    border-left: 264px solid transparent;
+    top: 313px;
+    left: 1px;
+}
+
+.bat-body-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 73px solid #000;
+    border-right: 264px solid transparent;
+    top: 313px;
+    left: 264px;
+}
+
+.bat-face1{
+    position: absolute;
+    border-top: 81px solid #F1AA95;
+    border-left: 37px solid transparent;
+    border-right: 37px solid transparent;
+    height: 0px;
+    width: 52px;
+    top: 121px;
+    left: 13px;    
+}
+
+.bat-face-shadow{
+    position: absolute;
+    width: 70px;
+    height: 81px;
+    background: #000;
+    top: -81px;
+    left: 23px;
+    opacity: 0.1;
+
+}
+.bat-mouth{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 12px solid #000;
+    border-left: 39px solid transparent;
+    top: 140px;
+    left: 55px;
+}
+
+.bat-eye-left{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 12px solid white;
+    border-left: 36px solid transparent;
+    top: 53px;
+    left: 87px;
+}
+
+.bat-eye-right{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 12px solid white;
+    border-right: 36px solid transparent;
+    top: 53px;
+    left: 27px;
+}
+
+.batman-circle-face{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #000;
+    top: 120px;
+    left: 189px;
+    border-radius: 100%;
+}
+
+.batman-ear-left {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 72px solid #000;
+    border-right: 52px solid transparent;
+    top: 78px;
+    left: 189px;
+}
+
+.batman-ear-circle-left{
+    position: absolute;
+    width: 20px;
+    height: 47px;
+    background: #000;
+    top: 226px;
+    left: 179px;
+    border-radius: 100%;
+}
+
+.batman-ear-circle-right{
+    position: absolute;
+    width: 20px;
+    height: 47px;
+    background: #000;
+    top: 226px;
+    left: 329px;
+    border-radius: 100%;
+}
+
+.batman-ear-right {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 72px solid #000;
+    border-left: 52px solid transparent;
+    top: 78px;
+    left: 287px;
+}
+				
+
+.joker-face{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    background: white;
+    top: 148px;
+    left: 50px;
+}
+
 /*battery*/
 
 .battery{
