@@ -512,7 +512,7 @@ img{
     top: 108px;
 }
 
-.joker-hair-triangle-1{
+/* .joker-hair-triangle-1{
     position: absolute;
     width: 0;
     height: 0;
@@ -527,12 +527,12 @@ img{
     position: absolute;
     width: 0;
     height: 0;
-    border-bottom: 22px solid #9ADEB5;
+    border-bottom: 22px solid rgb(1, 167, 67);
     border-right: 55px solid transparent;
     left: 126px;
-    top: 171px;
+    top: 170px;
     transform: rotate(-50deg);
-}
+} */
 
 .joker-hair-square-left{
     position: absolute;
