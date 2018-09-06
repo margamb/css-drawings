@@ -96,18 +96,19 @@ $(".less").on("click", () => {
     $('.charge').animate({ width: '6px',},1000);
 });
 
-//batmasnjoker
 
-$('.light-turn-off').show();
 
-    $(".turn-off").on('click', event => {
-        $("light-turn-off").toggle("light-turn-off")
-    });
+//batman-joker
 
 $(".turn-off").on('click', function(){
-    $(".light-turn-off").css("background", "transparent");
-    $(".light-ball").css("background", "radial-gradient(white, yellow)");
+    $(".dark-curtain").toggle();
+    // $(".dark-curtain").css("background", "transparent");
+    $(".light-ball").toggleClass("light-ball--on");
     $(".light-reflections").css("background", "radial-gradient(white, yellow)");
+    $(".batman-ear-left-light").toggleClass("batman-ear-left-light--on");
+    $(".batman-ear-right-light").toggleClass("batman-ear-right-light--on");
+    $(".batman-circle-face-light").toggleClass("batman-circle-face-light--on");
+    $(".joker-hair-back-light").toggleClass("joker-hair-back-light--on");
 })
 
 

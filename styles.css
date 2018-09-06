@@ -31,13 +31,66 @@ img{
 
 .turn-off{
     position: absolute;
-    width: 50px;
+    width: 71px;
     height: 50px;
-    background: white;
-    top: 300px;
-    left: 30px;
-    border-radius:100%;
+    background: #FAA502;
+    top: 18px;
+    left: 20px;
+    border-radius: 19%;
+    padding: 1%;
+    cursor: pointer;
+}
 
+/* .arrow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 19px solid #000;
+    top: 20px;
+    left: 22px;
+    transform: rotate(-48deg);
+}
+
+.arrow1{
+    position: absolute;
+    width: 8px;
+    height: 14px;
+    background: #000;
+    top: 31px;
+    left: 36px;
+    transform: rotate(-48deg);
+}
+
+.circle1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid grey;
+    top: 13px;
+    left: 14px;
+    border-radius: 100%;
+}
+
+.circle2{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border: 3px solid grey;
+    top: 9px;
+    left: 10px;
+    border-radius: 100%;
+} */
+
+.text-click{
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+    margin: 0;
+    padding-top: 6%;
 }
 
 
@@ -57,12 +110,16 @@ img{
     width: 40px;
     height: 40px;
     background: #333;
-    top: 34px;
+    top: 29px;
     left: 175px;
     border-radius: 100%;
 }
 
-.light-turn-off{
+.light-ball--on {
+    background: radial-gradient(white, yellow);
+}
+
+.dark-curtain{
     width: 385px;
     height: 385px;
     background: #000;  
@@ -74,14 +131,14 @@ img{
 
 
 .light-reflections{
-    width: 385px;
-    height: 385px;
-    background: transparent;  
-    position: absolute; 
-    top: 43px;
-    left: 0;
-    border-radius: 100%;
+    width: 401px;
+    height: 413px;
+    background: transparent;
+    position: absolute;
+    top: 86px;
+    left: -7px;
     opacity: 0.2;
+    transform: rotate(45deg);
 }
 
 
@@ -186,6 +243,20 @@ img{
     border-radius: 100%;
 }
 
+.batman-circle-face-light{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #333333;
+    top: 114px;
+    left: 189px;
+    border-radius: 100%;
+}
+
+.batman-circle-face-light--on{
+    background: #FFFF90;
+}
+
 .batman-ear-left {
     position: absolute;
 	width: 0;
@@ -194,6 +265,34 @@ img{
     border-right: 52px solid transparent;
     top: 78px;
     left: 189px;
+}
+
+.batman-ear-left-light {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 72px solid #333333;
+    border-right: 52px solid transparent;
+    top: 72px;
+    left: 189px;
+}
+
+.batman-ear-left-light--on {
+    border-bottom: 72px solid  #FFFF90;
+}
+
+.batman-ear-right-light {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 72px solid #333333;
+    border-left: 52px solid transparent;
+    top: 72px;
+    left: 287px;
+}
+
+.batman-ear-right-light--on {
+    border-bottom: 72px solid  #FFFF90;
 }
 
 .batman-ear-circle-left{
@@ -216,7 +315,7 @@ img{
     border-radius: 100%;
 }
 
-.batman-ear-right {
+.batman-ear-right{
     position: absolute;
 	width: 0;
 	height: 0;
@@ -367,7 +466,20 @@ img{
     top: 131px;
     left: 43px;
     border-radius: 10%;
+}
 
+.joker-hair-back-light{
+    position: absolute;
+    width: 110px;
+    height: 117px;
+    background: #9ADEB5;
+    top: 127px;
+    left: 43px;
+    border-radius: 10%;
+}
+
+.joker-hair-back-light--on{
+    background: #FFFF90;
 }
 
 .joker-hair-circle{
@@ -375,6 +487,16 @@ img{
     width: 40px;
     height: 45px;
     background: #237634;
+    top: 142px;
+    left: 77px;
+    border-radius: 100%;
+}
+
+.joker-hair-circle-light{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    background: #9ADEB5;
     top: 142px;
     left: 77px;
     border-radius: 100%;
@@ -388,6 +510,28 @@ img{
     border-right: 44px solid transparent;
     left: 81px;
     top: 108px;
+}
+
+.joker-hair-triangle-1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 42px solid #9ADEB5;
+    border-right: 44px solid transparent;
+    left: 28px;
+    top: 122px;
+    transform: rotate(-30deg);
+}
+
+.joker-hair-triangle-2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 22px solid #9ADEB5;
+    border-right: 42px solid transparent;
+    left: 127px;
+    top: 174px;
+    transform: rotate(-50deg);
 }
 
 .joker-hair-square-left{
