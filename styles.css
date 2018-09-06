@@ -528,9 +528,9 @@ img{
     width: 0;
     height: 0;
     border-bottom: 22px solid #9ADEB5;
-    border-right: 42px solid transparent;
-    left: 127px;
-    top: 174px;
+    border-right: 55px solid transparent;
+    left: 126px;
+    top: 171px;
     transform: rotate(-50deg);
 }
 
@@ -604,6 +604,17 @@ img{
     transform: rotate(45deg);
 }
 
+.joker-tip-light{
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    background: white;
+    opacity: 0.2;
+    top: 274px;
+    left: 94px;
+    transform: rotate(45deg);
+}
+
 .joker-tip1{
     position: absolute;
     width: 20px;
@@ -611,6 +622,16 @@ img{
     background: #501FA8;
     top: 291px;
     left: 89px;
+}
+
+.joker-tip1-light{
+    position: absolute;
+    width: 6px;
+    height: 60px;
+    background: white;
+    opacity: 0.2;
+    top: 293px;
+    left: 92px;
 }
 
 .joker-lapel-left{
