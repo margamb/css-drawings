@@ -18,6 +18,624 @@ img{
     padding-bottom: 5%;
 }
 
+/* switch-supermario*/
+
+.switch-supermario{
+    width: 385px;
+    height: 385px;
+    background: #778898;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch-supermario input {
+    position: absolute;
+}
+
+.SP{
+    position: absolute;
+    left: 0%;
+    transition: 0.5s;
+}
+
+input:checked + .toggleSp .SP{
+    left: -46%;
+    transition: 0.5s;
+}
+
+input:checked + .toggleSp{
+    background: #3AB6F5;
+}
+
+.toggleSp{
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    width: 280px;
+    height: 140px;
+    -webkit-appearance: none;
+    background: #9CA8F7;
+    outline: none;
+    border-radius: 120px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    overflow: hidden;
+    /*box-shadow:1.125em 1.125em 0 1.125em rgba(0,0,0,0.3) inset*/
+    transition: 0.5s;
+}
+
+input:checked + .toggleSp .toggle__handlerSP { /*para que se mueva el circulo */
+    background-color: white;
+    left: 50%;
+    /*transform: translate3d(40px, 0, 0) rotate(0);*/
+}
+
+.toggle__handlerSP{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    top: 5px;
+    left: 8px;
+    width: 130px;
+    height: 130px;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    box-shadow: 2px 9px 26px rgba(0, 0, 0, 0.3);
+    transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /* transform: rotate(-45deg); */
+    -webkit-appearance: none;
+}
+
+.mushroomTopSp{
+    position: absolute;
+    top: 28px;
+    left: 21px;
+    width: 89px;
+    height: 61px;
+    border-radius: 45%;
+    background: #00802B;
+    overflow: hidden;
+}
+
+.floorSp{
+    position: absolute;
+    top: 128px;
+    left: 10px;
+    width: 264px;
+    height: 20px;
+    background: #D64F00;
+}
+
+.cloudCircleSp{
+    position: absolute;
+    top: 10px;
+    left: -9px;
+    width: 22px;
+    height: 18px;
+    border-radius: 100%;
+    background: white;
+}
+
+.cloudCircle1Sp{
+    position: absolute;
+    top: 7px;
+    left: 31px;
+    width: 22px;
+    height: 18px;
+    border-radius: 100%;
+    background: white;
+}
+
+.cloudSp{
+    position: absolute;
+    top: 24px;
+    left: 113px;
+    width: 45px;
+    height: 29px;
+    border-radius: 37%;
+    background: white;
+}
+
+.bodySp{
+    position: absolute;
+    top: 65px;
+    left: 179px;
+    width: 35px;
+    height: 50px;
+    border-radius: 37%;
+    background: #CD0518;
+}
+
+.breastplateSp{
+    position: absolute;
+    top: 68px;
+    left: 185px;
+    width: 24px;
+    height: 50px;
+    border-radius: 37%;
+    background: #1F4793;
+}
+
+.buttomleftSp{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 5px;
+    height: 7px;
+    border-radius: 37%;
+    background: #E39123;
+}
+
+.buttomRightSp{
+    position: absolute;
+    top: 2px;
+    left: 17px;
+    width: 5px;
+    height: 7px;
+    border-radius: 37%;
+    background: #E39123;
+}
+
+.hatbackSp{
+    position: absolute;
+    top: 29px;
+    left: 176px;
+    width: 41px;
+    height: 40px;
+    border-radius: 37%;
+    transform: rotate(45deg);
+    background: #CD0518;
+}
+
+.hatCircleSp{
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 1000%;
+    background: #E39123;
+}
+
+.hatSp{
+    position: absolute;
+    top: 37px;
+    left: 178px;
+    width: 38px;
+    height: 27px;
+    border-radius: 92%;
+    background: rgb(90, 1, 10);
+}
+
+.earLeftSp{
+    position: absolute;
+    top: 55px;
+    left: 178px;
+    width: 10px;
+    height: 10px;
+    border-radius: 1000%;
+    background: #DBA782;
+}
+
+.earRightSp{
+    position: absolute;
+    top: 55px;
+    left: 206px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #DBA782;
+}
+
+.faceSp{
+    position: absolute;
+    top: 43px;
+    left: 182px;
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    background: #EEC5B2;
+}
+
+.hairSp{
+    position: absolute;
+    top: 44px;
+    left: 180px;
+    width: 34px;
+    height: 22px;
+    border-radius: 40%;
+    background: black;
+}
+
+.eyeLeftSp{
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 6px;
+    height: 8px;
+    border-radius: 100%;
+    background: black;
+}
+
+.eyesLeftLightSp{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background: white;
+}
+
+.eyeRightSp{
+    position: absolute;
+    top: 5px;
+    left: 19px;
+    width: 6px;
+    height: 8px;
+    border-radius: 100%;
+    background: black;
+}
+
+.eyesRightLightSp{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background: white;
+}
+
+.noseSp{
+    position: absolute;
+    top: 13px;
+    left: 9px;
+    width: 12px;
+    height: 9px;
+    border-radius: 100%;
+    background: #DBA782;
+}
+
+.moustacheSp{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    width: 21px;
+    height: 4px;
+    border-radius: 44%;
+    background: black;
+}
+
+.tubeDown{
+    position: absolute;
+    top: 87px;
+    left: 177px;
+    width: 40px;
+    height: 41px;
+    background: #34A62E;
+}
+
+.tubeDownLight{
+    position: absolute;
+    top: 0;
+    left: 24px;
+    width: 10px;
+    height: 41px;
+    background: #82CD0F;
+}
+
+.tubeDownWhite{
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 2px;
+    height: 35px;
+    background: white;
+}
+
+.tubeUp{
+    position: absolute;
+    top: 80px;
+    left: 172px;
+    width: 50px;
+    height: 10px;
+    background: #34A62E;
+}
+
+.tubeUpLight{
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 10px;
+    height: 10px;
+    background: #82CD0F;
+}
+
+.tubeUpWhite{
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    width: 2px;
+    height: 5px;
+    background: white;
+}
+
+
+
+/*Prueba switch luna-sol   https://fribly.com/2016/03/27/pure-css-day-night-toggle/ */
+.toggleWrapper{
+    width: 385px;
+    height: 385px;
+    background: #D8D8D8;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*LETRAS*/
+
+
+input:checked + .toggle::after {
+    color: #ffffff;
+}
+.toggle::after {
+    content: 'PM';
+    position: absolute;
+    right: -48px;
+    top: 15px;
+    font-size: 18px;
+    color: #749ED7;
+}
+input:checked + .toggle::before {
+    color: #749ED7;
+}
+.toggle::before {
+    content: 'AM';
+    position: absolute;
+    left: -50px;
+    top: 15px;
+    font-size: 18px;
+}
+
+input:checked + .toggle {
+    background-color: #749DD6;
+}
+
+/*Incluido el .toggle es todo lo de las letras--falta entender mejor--*/
+
+.toggle {
+    font-family: 'Helvetica Rounded', 'Arial Rounded MT Bold','Montserrat', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 50px;
+    background-color: #83D8FF;
+    border-radius: 84px;
+    transition: background-color 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.toggleWrapper input {
+    position: absolute;
+    /*left: -99em;*/
+}
+
+
+input:checked + .toggle {  /*y cambie el color del ovalo*/
+    background-color: #749DD6;
+}
+
+input:checked + .toggle .toggle__handler { /*para que se mueva el circulo */
+    background-color: #FFE5B5;
+    left: 48%;
+    /*transform: translate3d(40px, 0, 0) rotate(0);*/
+}
+
+.toggle__handler {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    left: 3px;
+    width: 44px;
+    height: 44px;
+    background-color: #FFCF96;
+    border-radius: 50px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /*transform: rotate(-45deg);*/
+    -webkit-appearance: none;
+}
+
+.star {
+    position: absolute;
+    background-color: #ffffff;
+    transition: all 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    border-radius: 50%;
+}
+
+.star--1 { /*clouds*/
+    top: 10px;
+    left: 35px;
+    z-index: 0;
+    width: 30px;
+    height: 3px;
+}
+
+.star--2 { /*clouds*/
+    top: 18px;
+    left: 28px;
+    z-index: 1;
+    width: 30px;
+    height: 3px;
+}
+
+.star--3 { /*clouds*/
+    top: 27px;
+    left: 40px;
+    z-index: 0;
+    width: 30px;
+    height: 3px;
+}
+
+
+/*stars*/
+
+input:checked + .toggle .star--1 {
+    width: 2px;
+    height: 2px;
+}
+
+input:checked + .toggle .star--2 {
+    width: 4px;
+    height: 4px;
+    transform: translate3d(-5px, 0, 0);
+}
+
+input:checked + .toggle .star--3 {
+    width: 2px;
+    height: 2px;
+    transform: translate3d(-7px, 0, 0);
+}
+
+.star--4 {
+    top: 16px;
+    left: 11px;
+    z-index: 0;
+    width: 2px;
+    height: 2px;
+}
+
+input:checked + .toggle .star--4 {
+    transition: all 300ms 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.star--5 {
+    top: 32px;
+    left: 17px;
+    z-index: 0;
+    width: 3px;
+    height: 3px;
+}
+
+input:checked + .toggle .star--5 {
+    transition: all 300ms 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.star--6 {
+    top: 36px;
+    left: 28px;
+    z-index: 0;
+    width: 2px;
+    height: 2px;
+}
+
+input:checked + .toggle .star--6 {
+    transition: all 300ms 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+/* crater*/
+input:checked + .toggle .toggle__handler .crater {
+    opacity: 1;
+}
+
+.toggle__handler .crater {
+    position: absolute;
+    background-color: #E8CDA5;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    border-radius: 100%;
+}
+
+.toggle__handler .crater--1 {
+    top: 18px;
+    left: 10px;
+    width: 4px;
+    height: 4px;
+}
+
+.toggle__handler .crater--2 {
+    top: 28px;
+    left: 22px;
+    width: 6px;
+    height: 6px;
+}
+
+.toggle__handler .crater--3 {
+    top: 10px;
+    left: 25px;
+    width: 8px;
+    height: 8px;
+}
+
+/* button-switch1 */
+
+.button-switch1{
+    width: 385px;
+    height: 385px;
+    background: #424b54;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlecheck1{ /*forma ovalada del fondo y posicion en el cuadrado*/
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    width: 280px;
+    height: 140px;
+    -webkit-appearance: none;
+    background: #7d8995;
+    outline: none;
+    border-radius: 120px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    /*box-shadow:1.125em 1.125em 0 1.125em rgba(0,0,0,0.3) inset*/
+    transition: 0.5s;
+}
+
+.circlecheck1:checked{  /*cambia el color del ovalo cuando esta chequeado*/
+    background: #E54594;
+}
+
+.circlecheck1:before{ /*circulo*/
+    content: '';
+    position: absolute;
+    width:140px;
+    height:140px;
+    left: 0;
+    top:0;
+    background: #fff;
+    border-radius: 100%;
+    transform:scale(1.1);
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    transition: 0.5s;
+}
+
+.circlecheck1:checked:before{
+    left: 50%;
+}
+
+
+
 /* button-switch */
 
 .button-switch {
@@ -54,7 +672,7 @@ h2 {
     outline: none;
     border-radius: 60px;
     box-shadow: inset 0 0 5px rgba(0,0,0,.2);
-    transition: .5s;
+    transition: 0.5s;
   }
   .check1:checked{
     background: #E54594;
@@ -74,6 +692,7 @@ h2 {
     transition: .5s;
   }
 
+
   .check1:checked:before{
     left: 50%;
   }
@@ -84,7 +703,7 @@ h2 {
     outline: none;
     border-radius: 60px;
     box-shadow: inset 0 0 5px rgba(0,0,0,.2);
-    transition: .5s;
+    transition: 0.5s;
   }
 
   .check2:checked{ /* circulo alargado cambia de color con click*/
