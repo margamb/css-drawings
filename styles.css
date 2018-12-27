@@ -42,6 +42,7 @@ img{
     transition: 0.5s;
 }
 
+
 input:checked + .toggleSp .SP{
     left: -46%;
     transition: 0.5s;
@@ -49,6 +50,19 @@ input:checked + .toggleSp .SP{
 
 input:checked + .toggleSp{
     background: #3AB6F5;
+}
+
+.supermarioBody{
+    position: absolute;
+    left: 0%;
+    top: 16px;
+    transition: 0.5s;
+}
+
+input:checked + .toggleSp .supermarioBody{
+    left: -46%;
+    top: 0%;
+    transition: 0.5s;
 }
 
 .toggleSp{
@@ -217,7 +231,7 @@ input:checked + .toggleSp .toggle__handlerSP .mushroomTopSp{
     top: 65px;
     left: 179px;
     width: 35px;
-    height: 50px;
+    height: 44px;
     border-radius: 37%;
     background: #CD0518;
 }
@@ -227,7 +241,7 @@ input:checked + .toggleSp .toggle__handlerSP .mushroomTopSp{
     top: 68px;
     left: 185px;
     width: 24px;
-    height: 50px;
+    height: 44px;
     border-radius: 37%;
     background: #1F4793;
 }
