@@ -24,7 +24,7 @@ img{
 .KitCatClock{
     width: 385px;
     height: 385px;
-    background: #778898;
+    background: linear-gradient(#e66465, #C17585);
     position: relative;
     overflow: hidden;
     display: flex;
@@ -75,6 +75,16 @@ img{
     background: radial-gradient(black, black);
 }
 
+.centerKitCat{
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background: white;
+}
+
 .clockKitCat{
     width: 64px;
     height: 83px;
@@ -84,6 +94,73 @@ img{
     border-radius: 37%;
     position: absolute;
     overflow: hidden;
+}
+
+.foot2KitCat{
+    position: absolute;
+    top: 0px;
+    left: 69px;
+}
+
+.foot3KitCat 
+.nail1KitCat{
+    position: absolute;
+    top: 27px;
+    left: 18px;
+    transform: rotate(-53deg);
+}
+
+.foot3KitCat 
+.nail2KitCat{
+    position: absolute;
+    top: 34px;
+    left: 14px;
+    transform: rotate(-64deg);
+}
+
+.foot3KitCat 
+.nail3KitCat{
+    position: absolute;
+    top: 42px;
+    left: 12px;
+    transform: rotate(-84deg);
+}
+
+.foot4KitCat 
+.nail1KitCat{
+    position: absolute;
+    top: 27px;
+    left: 89px;
+    transform: rotate(-126deg);
+}
+
+.foot4KitCat 
+.nail2KitCat{
+    position: absolute;
+    top: 34px;
+    left: 93px;
+    transform: rotate(65deg);
+}
+
+.foot4KitCat 
+.nail3KitCat{
+    position: absolute;
+    top: 42px;
+    left: 95px;
+    transform: rotate(72deg);
+}
+
+.hourHandKitCat{
+    width: 5px;
+    height: 17px;
+    background-color: white;
+    transform-origin: bottom center;
+    border-radius: 4px;
+    position: absolute;
+    top: 25px;
+    left: 31px;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transform: rotate(360deg);
 }
 
 .mouthKitCat {
@@ -171,6 +248,48 @@ img{
     animation: 2s rot infinite;
 }
 
+.tailLightKitCat{
+    position: absolute;
+    top: 22px;
+    left: 16px;
+    width: 9px;
+    height: 90px;
+    border-radius: 36%;
+    background: radial-gradient( grey, black);
+}
+
+.tieLeftKitCat{
+    position: absolute;
+    top: 107px;
+    left: 165px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 30px solid white;
+}
+
+.tieRightKitCat{
+    position: absolute;
+    top: 107px;
+    left: 197px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 30px solid white;
+}
+
+.tieCenterKitCat{
+    position: absolute;
+    top: 114px;
+    left: 189px;
+    width: 15px;
+    height: 10px;
+    border-radius: 27%;
+    background: white;
+}
+
 .clockKitCat ul {
     list-style: none;
     color: white;
@@ -183,11 +302,138 @@ img{
     line-height: 20px;
 }
 
+.clockKitCat ul li:nth-child(1) {
+    left: 17px;
+    top: -1px;
+    position: relative;
+}
+
 .clockKitCat ul li:nth-child(2) {
-    left: 157%;
+    left: 25px;
+    top: -7px;
+    position: relative;
+}
+
+.clockKitCat ul li:nth-child(3) {
+    left: 26px;
+    top: -9px;
+    position: relative;
+}
+
+.clockKitCat ul li:nth-child(4) {
+    left: 24px;
+    top: -11px;
+    position: relative;
+}
+
+.clockKitCat ul li:nth-child(5) {
+    left: 15px;
     top: -18px;
     position: relative;
 }
+
+.clockKitCat ul li:nth-child(6) {
+    left: -1px;
+    top: -36px;
+    position: relative;
+}
+
+.clockKitCat ul li:nth-child(7) {
+    left: -15px;
+    top: -57px;
+    position: relative;
+}
+
+.clockKitCat ul li:nth-child(8) {
+    left: -25px;
+    top: -90px;
+    position: relative;
+}
+
+.clockKitCat ul li:nth-child(9) {
+    left: -28px;
+    top: -128px;
+    position: relative;
+}
+
+.clockKitCat ul li:nth-child(10) {
+    left: -28px;
+    top: -167px;
+    position: relative;
+}
+
+.clockKitCat ul li:nth-child(11) {
+    left: -17px;
+    top: -202px;
+    position: relative;
+}
+
+.clockKitCat ul li:nth-child(12) {
+    left: -13%;
+    top: -224px;
+    position: relative;
+}
+
+.minuteHandKitCat{
+    width: 2px;
+    height: 28px;
+    background-color: white;
+    transform-origin: bottom center;
+    border-radius: 4px;
+    position: absolute;
+    top: 16px;
+    left: 32px;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transform: rotate(360deg);
+}
+
+.nail1KitCat{
+    position: absolute;
+    top: 115px;
+    left: 26px;
+    width: 3px;
+    height: 6px;
+    background-color: white;
+    border-radius: 4%;
+}
+
+.nail2KitCat{
+    position: absolute;
+    top: 115px;
+    left: 19px;
+    width: 3px;
+    height: 6px;
+    background-color: white;
+    border-radius: 4%;
+}
+
+.nail3KitCat{
+    position: absolute;
+    top: 115px;
+    left: 12px;
+    width: 3px;
+    height: 6px;
+    background-color: white;
+    border-radius: 4%;
+}
+
+
+
+
+.secondHandKitCat{
+    width: 2px;
+    height: 28px;
+    background-color: white;
+    transform-origin: bottom center;
+    border-radius: 4px;
+    position: absolute;
+    top: 16px;
+    left: 32px;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transform: rotate(360deg);
+}
+
+
 
 .earLeftKitCat{
     position: absolute;
@@ -199,6 +445,15 @@ img{
     transform: rotate(114deg);
 }
 
+.earLeftLightKitCat{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(black, white);
+}
+
 .earRightKitCat{
     position: absolute;
     top: 31px;
@@ -207,6 +462,15 @@ img{
     height: 30px;
     background: radial-gradient(black, black);
     transform: rotate(149deg);
+}
+
+.earRightLightKitCat{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(black, white);
 }
 
 .whiskersKitCat {
